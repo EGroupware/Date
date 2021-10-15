@@ -1,5 +1,5 @@
 {
-    "name": "horde/date",
+    "name": "egroupware/date",
     "description": "Date library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_Date",
@@ -16,28 +16,17 @@
             "role": "lead"
         }
     ],
-    "version": "2.4.2",
+    "version": "2.5.0",
     "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Nls": "^2",
-        "pear-pear.horde.org/Horde_Translation": "^2.2"
+        "php": "^5.3 || ^7 || ^8",
+        "egroupware/exception": "^2",
+        "egroupware/nls": "^2",
+        "egroupware/translation": "^2.2"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Icalendar": "^2",
-        "pear-pear.horde.org/Horde_Test": "^2.1",
+        "egroupware/icalendar": "^2",
         "ext-calendar": "*"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Date": "2.*",
-        "pear-horde/Horde_Date": "2.*"
     },
     "autoload": {
         "psr-0": {
